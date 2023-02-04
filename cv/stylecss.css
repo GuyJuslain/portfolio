@@ -1,0 +1,50 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+nav
+{
+display: inline-block;
+width: 900px;
+text-align: right;
+}
+header h2{
+    text-align: center;
+}
+nav ul
+{
+list-style-type: none;
+}
+header{
+    background-color: #555257;
+    height: 200px;
+    border: 1px solid black;
+
+}
+nav li
+{
+    display: inline-block;
+    text-align: left;
+}
+
+.image{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.institution{
+    text-shadow: 1px 1px 2px pink;
+}
+
+.etude{
+    display: inline-block;
+}
+
+.periode{
+    display: inline-block;
+}

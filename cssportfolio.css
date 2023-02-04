@@ -30,12 +30,13 @@ nav ul{
     font-weight: 700;
 }
 
-nav ul li{
+nav ul li :hover{
     margin-left: 40px;
     font-size: 15px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: blue;
 }
 
 header{
@@ -83,11 +84,43 @@ header .header-right{
 }
 
 img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 
 header .header-right img{ 
-    width: 60px;
-    height: 60%;
+    width: 100px;
+    height: 100%;
+}
+
+
+.about{
+    margin-top: 150px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+.projets{
+    margin-top: 60px;
+}
+
+.projets .image-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.projets .images-card .image-left{
+    margin-right: 40px;
+}
+
+.projets .images-card .image-left img{
+
+    height: 200px;
+    width: 400px;
 }
